@@ -97,11 +97,11 @@ table.center{
 }
    
 .left {
-	left: 100;
+	left: 0;
 	margin-left: 100px;
 }
 
 .right {
 	right: 0;
-	margin-right: -100px;
+	margin-right: -150px;
  }
