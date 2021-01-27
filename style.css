@@ -1,4 +1,14 @@
 
+/* sources used: 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_overlay_text
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
+https://www.w3resource.com/javascript/form/email-validation.php
+https://stackoverflow.com/questions/13765116/output-disappeared-javascript-simple-innerhtml
+*/
+
+
+
+
 /*header of page*/
 .topheader {
 	font-family: "american typewriter";
@@ -18,7 +28,7 @@
 	float: center;
 	color: #fffafa;
 	padding-left: 8px;
-    padding-right: 8px;
+        padding-right: 8px;
 	font-size: 800%
 }
 
@@ -33,15 +43,6 @@
 .active {
 	background-color: #D3D3D3
 }
-
-
-
-/* sources used: 
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_overlay_text
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
-https://www.w3resource.com/javascript/form/email-validation.php
-https://stackoverflow.com/questions/13765116/output-disappeared-javascript-simple-innerhtml
-*/
 
 /*main text*/
 .main{
