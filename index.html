@@ -3,9 +3,10 @@
 <html>
 
 <head>
-	<title>CS185 PA1</title>
+	<title>CS 185 PA</title>
 	<link rel="stylesheet" href="style.css">
-	<script src ="script.js"></script>
+	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -16,11 +17,13 @@
 	</div>
 
 	<div class="nav">
-		<a href="index.html"> About Me </a>
+		<a class = "active" href="index.html"> About Me </a>
 		<a href="images.html"> Images </a>
 		<a href="video.html"> Videos </a>
 		<a href="table.html"> Links </a>
+		<a href="email.html"> Email </a>
 	</div>
+
 
 	<div class="main">
 		<br>
@@ -32,16 +35,15 @@
 			<label> Send me a message!</label><br/>
 			<input type="msg"><br>
 			<label> Do you like dogs or cats more?</label><br/>
-			<input name="dogs" type="radio">
+			<input name="radio" type="radio">
 			<label>Dogs</label><br>
-			<input name="cats" type="radio">
+			<input name="radio" type="radio">
 			<label>Cats</label><br>
 			<input type="button" value="Submit">
 		</form>
 		
 		<br>
-
-
+		
 		<div class="indexgrid">
 			<div class="indexgrid-item">
 				<p class="tab">Some fun facts about me are: </p>
@@ -56,26 +58,14 @@
 				<p class="tab">3. Jump on the couch when no one is looking </p>
 			</div>
 		</div>
-<!--
-		<table class="center">
-			<br>
-			<tr>
-				<td>
-					<p class="tab">Some fun facts about me are: </p>
-					<p class="tab">1. I was born on September 10, 2020</p>
-					<p class="tab">2. I've lost 25% of my puppy teeth!</p>
-					<p class="tab">3. I weigh less than a half of my full-grown weight.</p>
-				</td>
-				<td>
-					<p class="tab">Some of my favorite things to do are: </p>
-					<p class="tab">1. Eat! </p>
-					<p class="tab">2. Bite on shoes </p>
-					<p class="tab">3. Jump on the couch when no one is looking </p>
-				</td>
-			</tr>
-		</table>
--->
-
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</div>
+
+	<button onclick="scrollToTop()" id="button">Click to scroll up</button>
+	<script type="text/javascript" src ="script.js"></script>
 </body>
 </html>

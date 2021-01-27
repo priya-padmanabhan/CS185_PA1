@@ -3,8 +3,10 @@
 <html>
 
 <head>
-	<title>Page Title</title>
+	<title>CS 185 PA</title>
 	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src ="script.js"></script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -17,34 +19,38 @@
 	<div class="nav">
 		<a href="index.html"> About Me </a>
 		<a href="images.html"> Images </a>
-		<a href="video.html"> Videos </a>
+		<a class = "active" href="video.html"> Videos </a>
 		<a href="table.html"> Links </a>
+		<a href="email.html"> Email </a>
+	</div>
+
+	<div id="overlay" class = "overlay" onClick="hide()">
+		<video id = "obj" class = "obj" onClick="event.stopPropagation()" controls>
 	</div>
 
 	<div class="main">
 		<div class="grid">
 			<div class="grid-item">
-				<video controls>
-    				<source src="video1.mp4">
+    			<video src="video1.mp4" onClick="showVid(this)" autoplay>
     			</video>
     		</div>
     		<div class="grid-item">
-    			<video controls>
-    				<source src="video4.mp4">
+    			<video src="video4.mp4" onClick="showVid(this)" autoplay muted>
     			</video>
     		</div>
     		<div class="grid-item">
-    			<video controls>
-    				<source src="video2.mp4">
+    			<video src="video2.mp4" onClick="showVid(this)" autoplay>
     			</video>
     		</div>
     		<div class="grid-item">
-    			<video controls>
-    				<source src="video3.mp4">
+    			<video src="video3.mp4" onClick="showVid(this)" autoplay>
     			</video>
     		</div>
     	</div>
 	</div>
+
+	<button onclick="scrollToTop()" id="button">Click to scroll up</button>
+	<script type="text/javascript" src ="script.js"></script>
 
 </body>
 </html>
