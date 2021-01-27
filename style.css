@@ -1,4 +1,14 @@
 
+/* sources used: 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_overlay_text
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
+https://www.w3resource.com/javascript/form/email-validation.php
+https://stackoverflow.com/questions/13765116/output-disappeared-javascript-simple-innerhtml
+*/
+
+
+
+
 /*header of page*/
 .topheader {
 	font-family: "american typewriter";
@@ -18,8 +28,9 @@
 	float: center;
 	color: #fffafa;
 	padding-left: 5px;
-    padding-right: 5px;
+  padding-right: 5px;
 	font-size: 650%
+
 }
 
 
